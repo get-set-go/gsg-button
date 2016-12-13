@@ -1,4 +1,4 @@
-import './GSGButton.css';
+import './GSGButton.less';
 
 import React, { PropTypes } from 'react';
 import ReactDOM from 'react-dom';
@@ -24,14 +24,15 @@ export default class GSGButton extends React.Component {
       <button
         type={_bType}
         disabled={this.props.isDisabled}
-        >{this.props.children}</button>
+        onClick={this.props.onClick}>{this.props.children}</button>
     );
   }
 };
 
 GSGButton.propTypes = {
   bType: PropTypes.string,
-  isDisabled: PropTypes.bool
+  isDisabled: PropTypes.bool,
+  onClick: PropTypes.func
 };
 
 GSGButton.defaultProps = {

@@ -1,6 +1,6 @@
 {
   "name": "gsg-button",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get-Set-Go button component",
   "main": "dist/index.min.js",
   "scripts": {
