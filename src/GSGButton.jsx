@@ -21,11 +21,20 @@ export default class GSGButton extends React.Component {
     }
 
     return(
-      <button type={_bType}>{this.props.children}</button>
+      <button
+        type={_bType}
+        disabled={this.props.isDisabled}
+        >{this.props.children}</button>
     );
   }
 };
 
 GSGButton.propTypes = {
-  bType: PropTypes.string
+  bType: PropTypes.string,
+  isDisabled: PropTypes.bool
+};
+
+GSGButton.defaultProps = {
+  _bType: 'button',
+  isDisabled: false
 };
