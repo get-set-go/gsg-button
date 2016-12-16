@@ -45,7 +45,7 @@ GSGButton.propTypes = {
 };
 
 GSGButton.defaultProps = {
-  _bType: 'button',
+  bType: 'button',
   isDisabled: false,
-  _bStyle: 'default'
+  bStyle: 'default'
 };
