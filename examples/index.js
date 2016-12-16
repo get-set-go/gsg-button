@@ -12,25 +12,38 @@ class Page extends React.Component {
 
   render() {
     return (
-      <div class="button-eg-container">
+      <div className="button-eg-container">
+        <h1>Get-Set-Go Button Component</h1>
 
-        <p class="button-eg-group">
-          <h2>Button Type</h2>
+        <p className="button-eg-group">
+          <h4>Button Styles</h4>
+
+          <Button>Default Button</Button>
+          <Button bStyle="primary">Primary Button</Button>
+          <Button bStyle="success">Success Button</Button>
+          <Button bStyle="info">Info Button</Button>
+          <Button bStyle="warning">Warning Button</Button>
+          <Button bStyle="danger">Danger Button</Button>
+          <Button bStyle="link">Link Button</Button>
+        </p>
+
+        <p className="button-eg-group">
+          <h4>Button Types</h4>
 
           <Button bType="button">Button</Button>
           <Button bType="submit">Submit</Button>
           <Button bType="reset">Reset</Button>
         </p>
 
-        <p class="button-eg-group">
-          <h2>Button State</h2>
+        <p className="button-eg-group">
+          <h4>Button States</h4>
 
           <Button>Enabled Button</Button>
           <Button isDisabled="true">Disabled Button</Button>
         </p>
 
-        <p class="button-eg-group">
-          <h2>Button Events</h2>
+        <p className="button-eg-group">
+          <h4>Button Events</h4>
 
           <Button onClick={this.message}>Click Button</Button>
         </p>
