@@ -23,9 +23,11 @@
     "url": "git+https://github.com/get-set-go/gsg-button.git"
   },
   "keywords": [
+    "Get-Set-Go",
     "React",
     "Components",
-    "Bootstrap"
+    "Bootstrap",
+    "button"
   ],
   "author": "Ashwin Hegde",
   "license": "MIT",
