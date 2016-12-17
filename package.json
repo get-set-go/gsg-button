@@ -69,5 +69,23 @@
   "peerDependencies": {
     "react": "^15.4.1",
     "react-dom": "^15.4.1"
+  },
+  "jest": {
+    "transform": {
+      ".*": "./jest.preprocessor.conf"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "jsx"
+    ],
+    "collectCoverage": true,
+    "transformIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "unmockedModulePathPatterns": [
+      "react",
+      "react-dom"
+    ]
   }
 }
