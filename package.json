@@ -1,6 +1,6 @@
 {
   "name": "gsg-button",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Get-Set-Go button component",
   "main": "dist/index.min.js",
   "scripts": {
@@ -23,9 +23,11 @@
     "url": "git+https://github.com/get-set-go/gsg-button.git"
   },
   "keywords": [
+    "Get-Set-Go",
     "React",
     "Components",
-    "Bootstrap"
+    "Bootstrap",
+    "button"
   ],
   "author": "Ashwin Hegde",
   "license": "MIT",

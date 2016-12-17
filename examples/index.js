@@ -38,7 +38,7 @@ class Page extends React.Component {
         <p className="button-eg-group">
           <h4>Button States</h4>
 
-          <Button>Enabled Button</Button>
+          <Button isActive="true">Enabled Button</Button>
           <Button isDisabled="true">Disabled Button</Button>
         </p>
 
@@ -46,6 +46,21 @@ class Page extends React.Component {
           <h4>Button Events</h4>
 
           <Button onClick={this.message}>Click Button</Button>
+        </p>
+
+        <p className="button-eg-group">
+          <h4>Button Sizes</h4>
+
+          <Button>Default Button</Button>
+          <Button bSize="lg">Large Button</Button>
+          <Button bSize="sm">Small Button</Button>
+          <Button bSize="xs">Extra Small Button</Button>
+        </p>
+
+        <p className="button-eg-group">
+          <h4>Button Blocks</h4>
+
+          <Button isBlock="true">Block Button</Button>
         </p>
 
       </div>

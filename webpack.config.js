@@ -19,7 +19,9 @@ var config = {
 
   externals: {
     'react': 'react',
-    'react-dom': 'react-dom'
+    'react-dom': 'react-dom',
+    'classnames': 'classnames',
+    'object-assign': 'object-assign'
   },
 
   module: {
