@@ -6,10 +6,6 @@ import classNames from 'classnames';
 import objectAssign from 'object-assign';
 
 export default class GSGButton extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     let _bType = 'button';
     switch (this.props.bType) {
@@ -23,18 +19,9 @@ export default class GSGButton extends React.Component {
     }
 
     let _bClass = {
-      'btn': true
+      'btn': true,
+      [`btn-${this.props.bStyle}`]: true
     };
-
-    if (!this.props.bStyle) {
-      _bClass = objectAssign(_bClass, {
-        'btn-default': true
-      });
-    } else {
-      _bClass = objectAssign(_bClass, {
-        [`btn-${this.props.bStyle}`]: true
-      });
-    }
 
     if (this.props.bSize) {
       _bClass = objectAssign(_bClass, {

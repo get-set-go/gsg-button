@@ -38,8 +38,8 @@ class Page extends React.Component {
         <p className="button-eg-group">
           <h4>Button States</h4>
 
-          <Button isActive="true">Enabled Button</Button>
-          <Button isDisabled="true">Disabled Button</Button>
+          <Button isActive>Enabled Button</Button>
+          <Button isDisabled>Disabled Button</Button>
         </p>
 
         <p className="button-eg-group">
@@ -60,7 +60,7 @@ class Page extends React.Component {
         <p className="button-eg-group">
           <h4>Button Blocks</h4>
 
-          <Button isBlock="true">Block Button</Button>
+          <Button isBlock>Block Button</Button>
         </p>
 
       </div>
