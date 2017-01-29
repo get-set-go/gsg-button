@@ -1,6 +1,6 @@
 {
   "name": "gsg-button",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Get-Set-Go button component",
   "main": "dist/index.min.js",
   "scripts": {
@@ -48,6 +48,7 @@
     "babel-jest": "^17.0.2",
     "babel-loader": "^6.2.8",
     "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-polyfill": "^6.22.0",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
