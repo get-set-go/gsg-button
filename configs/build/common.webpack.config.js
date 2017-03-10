@@ -75,7 +75,7 @@ const commonWebpackConfig = {
 			 */
 			{
 				test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-				loader: "file"
+				loader: "file-loader"
 			}
 		]
 	},
